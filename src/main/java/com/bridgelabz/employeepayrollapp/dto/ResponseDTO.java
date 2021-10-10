@@ -8,7 +8,7 @@ public class ResponseDTO {
     private String message;
     private Object data;
 
-    public ResponseDTO(String message, EmployeePayrollData empData) {
+    public ResponseDTO(String message, Object empData) {
         this.message = message;
         data = empData;
     }
