@@ -62,3 +62,17 @@
 2021-10-11 21:36:59.231  WARN 6111 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2021-10-11 21:36:59.503  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 1.983 seconds (JVM running for 7.418)
 2021-10-11 21:36:59.506  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-11 21:49:41.520  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6508 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-11 21:49:41.522 DEBUG 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-11 21:49:41.522  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-11 21:49:42.779  WARN 6508 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-11 21:49:43.073  WARN 6508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 21:49:43.362  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.108 seconds (JVM running for 7.579)
+2021-10-11 21:49:43.365  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-11 21:51:18.398  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6527 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-11 21:51:18.401 DEBUG 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-11 21:51:18.402  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-11 21:51:19.722  WARN 6527 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-11 21:51:20.085  WARN 6527 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 21:51:20.362  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.252 seconds (JVM running for 7.684)
+2021-10-11 21:51:20.366  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started

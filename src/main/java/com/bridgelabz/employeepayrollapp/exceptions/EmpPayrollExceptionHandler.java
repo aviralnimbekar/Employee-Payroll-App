@@ -16,13 +16,21 @@ public class EmpPayrollExceptionHandler {
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ResponseDto> handleMethodArgumentNotValidException(
-                                        MethodArgumentNotValidException e) {
+            MethodArgumentNotValidException e) {
         List<ObjectError> errList = e.getBindingResult().getAllErrors();
         List<String> errMsg = errList.stream()
-                                     .map(objErr -> objErr.getDefaultMessage())
-                                     .collect(Collectors.toList());
+                .map(objErr -> objErr.getDefaultMessage())
+                .collect(Collectors.toList());
         ResponseDto responseDto =
                 new ResponseDto("Exception while processing REST Request", errMsg);
         return new ResponseEntity<>(responseDto, HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(EmpPayrollException.class)
+    public ResponseEntity<ResponseDto> handleEmpPayrollException(
+            EmpPayrollException e) {
+        ResponseDto responseDto =
+                new ResponseDto("Exception while processing REST Request", e.getMessage());
+        return new ResponseEntity<>(responseDto, HttpStatus.NOT_FOUND);
     }
 }
