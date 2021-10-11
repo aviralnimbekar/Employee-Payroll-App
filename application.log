@@ -1,0 +1,21 @@
+2021-10-11 20:06:33.605  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5450 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-11 20:06:33.606 DEBUG 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-11 20:06:33.607  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-11 20:06:35.149  WARN 5450 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-11 20:06:35.534  WARN 5450 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 20:06:35.874  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.568 seconds (JVM running for 8.079)
+2021-10-11 20:06:35.877  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-11 20:08:16.997  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5460 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-11 20:08:16.999 DEBUG 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-11 20:08:17.000  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-11 20:08:18.437  WARN 5460 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-11 20:08:18.781  WARN 5460 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 20:08:19.082  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.379 seconds (JVM running for 7.847)
+2021-10-11 20:08:19.084  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-11 20:09:54.666  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5480 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-11 20:09:54.668 DEBUG 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-11 20:09:54.668  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-11 20:09:56.086  WARN 5480 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-11 20:09:56.449  WARN 5480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 20:09:56.725  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.35 seconds (JVM running for 7.806)
+2021-10-11 20:09:56.727  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
