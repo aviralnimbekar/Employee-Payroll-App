@@ -1,78 +1,384 @@
-2021-10-11 20:06:33.605  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5450 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 20:06:33.606 DEBUG 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 20:06:33.607  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 20:06:35.149  WARN 5450 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 20:06:35.534  WARN 5450 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 20:06:35.874  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.568 seconds (JVM running for 8.079)
-2021-10-11 20:06:35.877  INFO 5450 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 20:08:16.997  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5460 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 20:08:16.999 DEBUG 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 20:08:17.000  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 20:08:18.437  WARN 5460 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 20:08:18.781  WARN 5460 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 20:08:19.082  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.379 seconds (JVM running for 7.847)
-2021-10-11 20:08:19.084  INFO 5460 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 20:09:54.666  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5480 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 20:09:54.668 DEBUG 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 20:09:54.668  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 20:09:56.086  WARN 5480 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 20:09:56.449  WARN 5480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 20:09:56.725  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.35 seconds (JVM running for 7.806)
-2021-10-11 20:09:56.727  INFO 5480 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:15:04.054  INFO 5905 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5905 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:15:04.057 DEBUG 5905 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:15:04.057  INFO 5905 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:15:05.641  WARN 5905 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:15:06.039  WARN 5905 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:15:06.376  INFO 5905 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.627 seconds (JVM running for 8.108)
-2021-10-11 21:15:06.378  INFO 5905 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:16:23.730  WARN 5905 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto): [Field error in object 'empPayrollDto' on field 'salary': rejected value [100]; codes [Min.empPayrollDto.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.salary,salary]; arguments []; default message [salary],500]; default message [Salary must be more than 500]] ]
-2021-10-11 21:17:01.400  WARN 5905 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto) with 2 errors: [Field error in object 'empPayrollDto' on field 'salary': rejected value [100]; codes [Min.empPayrollDto.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.salary,salary]; arguments []; default message [salary],500]; default message [Salary must be more than 500]] [Field error in object 'empPayrollDto' on field 'name': rejected value [isa]; codes [Pattern.empPayrollDto.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@3a4a711d,^[A-Z][a-zA-Z]{2,}$]; default message [Employee name Invalid]] ]
-2021-10-11 21:18:26.438  WARN 5905 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto): [Field error in object 'empPayrollDto' on field 'name': rejected value []; codes [Pattern.empPayrollDto.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@3a4a711d,^[A-Z][a-zA-Z]{2,}$]; default message [Employee name Invalid]] ]
-2021-10-11 21:18:35.416  WARN 5905 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto): [Field error in object 'empPayrollDto' on field 'name': rejected value []; codes [Pattern.empPayrollDto.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@3a4a711d,^[A-Z][a-zA-Z]{2,}$]; default message [Employee name Invalid]] ]
-2021-10-11 21:19:30.510  INFO 5932 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5932 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:19:30.512 DEBUG 5932 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:19:30.513  INFO 5932 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:19:31.934  WARN 5932 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:19:32.275  WARN 5932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:19:32.552  INFO 5932 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.332 seconds (JVM running for 7.859)
-2021-10-11 21:19:32.554  INFO 5932 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:19:36.567  WARN 5932 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto): [Field error in object 'empPayrollDto' on field 'name': rejected value []; codes [NotEmpty.empPayrollDto.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.name,name]; arguments []; default message [name]]; default message [must not be empty]] ]
-2021-10-11 21:20:13.488  INFO 5944 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5944 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:20:13.490 DEBUG 5944 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:20:13.490  INFO 5944 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:20:14.763  WARN 5944 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:20:15.042  WARN 5944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:20:15.297  INFO 5944 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.107 seconds (JVM running for 7.565)
-2021-10-11 21:20:15.299  INFO 5944 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:20:18.234  WARN 5944 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
- at [Source: (PushbackInputStream); line: 2, column: 5]]
-2021-10-11 21:26:11.694  INFO 6044 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6044 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:26:11.696 DEBUG 6044 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:26:11.696  INFO 6044 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:26:13.218  WARN 6044 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:26:13.530  WARN 6044 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:26:13.800  INFO 6044 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.393 seconds (JVM running for 7.87)
-2021-10-11 21:26:13.802  INFO 6044 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:26:17.369  WARN 6044 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.dto.ResponseDto> com.bridgelabz.employeepayrollapp.controller.EmpPayrollController.addEmpPayrollData(com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto): [Field error in object 'empPayrollDto' on field 'name': rejected value []; codes [Pattern.empPayrollDto.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empPayrollDto.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@6a6d674e,^[A-Z][a-zA-Z]{2,}$]; default message [Employee name Invalid]] ]
-2021-10-11 21:36:57.785  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6111 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:36:57.787 DEBUG 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:36:57.788  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:36:58.925  WARN 6111 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:36:59.231  WARN 6111 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:36:59.503  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 1.983 seconds (JVM running for 7.418)
-2021-10-11 21:36:59.506  INFO 6111 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:49:41.520  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6508 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:49:41.522 DEBUG 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:49:41.522  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:49:42.779  WARN 6508 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:49:43.073  WARN 6508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:49:43.362  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.108 seconds (JVM running for 7.579)
-2021-10-11 21:49:43.365  INFO 6508 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
-2021-10-11 21:51:18.398  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 6527 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
-2021-10-11 21:51:18.401 DEBUG 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
-2021-10-11 21:51:18.402  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
-2021-10-11 21:51:19.722  WARN 6527 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-10-11 21:51:20.085  WARN 6527 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-10-11 21:51:20.362  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.252 seconds (JVM running for 7.684)
-2021-10-11 21:51:20.366  INFO 6527 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 00:31:32.801  INFO 7699 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7699 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:31:32.807 DEBUG 7699 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:31:32.810  INFO 7699 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:31:34.591  INFO 7699 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 7.155 seconds (JVM running for 8.273)
+2021-10-12 00:33:20.960  INFO 7713 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7713 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:33:20.961 DEBUG 7713 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:33:20.963  INFO 7713 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:33:22.471  INFO 7713 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.854 seconds (JVM running for 7.84)
+2021-10-12 00:34:12.760  INFO 7727 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7727 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:34:12.761 DEBUG 7727 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:34:12.764  INFO 7727 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:34:14.170  INFO 7727 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.721 seconds (JVM running for 7.633)
+2021-10-12 00:34:47.999  INFO 7737 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7737 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:34:48.001 DEBUG 7737 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:34:48.003  INFO 7737 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:34:49.590  INFO 7737 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.936 seconds (JVM running for 7.999)
+2021-10-12 00:35:22.844  INFO 7744 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7744 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:35:22.845 DEBUG 7744 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:35:22.847  INFO 7744 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:35:24.258  INFO 7744 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.727 seconds (JVM running for 7.679)
+2021-10-12 00:40:43.446  INFO 7775 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7775 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:40:43.447 DEBUG 7775 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:40:43.449  INFO 7775 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:40:44.893  INFO 7775 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.769 seconds (JVM running for 7.705)
+2021-10-12 00:41:16.348  INFO 7787 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7787 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:41:16.350 DEBUG 7787 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:41:16.352  INFO 7787 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:41:17.872  INFO 7787 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.833 seconds (JVM running for 7.763)
+2021-10-12 00:42:54.674  INFO 7829 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7829 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:42:54.675 DEBUG 7829 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:42:54.677  INFO 7829 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:42:56.108  INFO 7829 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.753 seconds (JVM running for 7.672)
+2021-10-12 00:43:58.589  INFO 7841 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7841 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:43:58.591 DEBUG 7841 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:43:58.593  INFO 7841 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:43:59.971  INFO 7841 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.693 seconds (JVM running for 7.612)
+2021-10-12 00:44:22.662  INFO 7851 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7851 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 00:44:22.663 DEBUG 7851 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 00:44:22.665  INFO 7851 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 00:44:24.046  INFO 7851 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.692 seconds (JVM running for 7.618)
+2021-10-12 01:19:16.369  INFO 8289 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8289 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 01:19:16.371 DEBUG 8289 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 01:19:16.373  INFO 8289 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 01:19:17.874  INFO 8289 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.831 seconds (JVM running for 7.799)
+2021-10-12 01:19:51.295  INFO 8298 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8298 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 01:19:51.297 DEBUG 8298 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 01:19:51.299  INFO 8298 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 01:19:52.907  INFO 8298 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.963 seconds (JVM running for 8.035)
+2021-10-12 14:44:15.026  INFO 5053 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5053 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 14:44:15.029 DEBUG 5053 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 14:44:15.031  INFO 5053 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 14:44:16.710  INFO 5053 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 7.055 seconds (JVM running for 8.129)
+2021-10-12 14:45:14.422  INFO 5098 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5098 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 14:45:14.424 DEBUG 5098 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 14:45:14.426  INFO 5098 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 14:45:16.049  INFO 5098 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.99 seconds (JVM running for 8.085)
+2021-10-12 14:46:08.302  INFO 5105 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5105 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 14:46:08.303 DEBUG 5105 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 14:46:08.306  INFO 5105 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 14:46:09.840  INFO 5105 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.892 seconds (JVM running for 8.315)
+2021-10-12 14:57:12.760  INFO 5141 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5141 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 14:57:12.762 DEBUG 5141 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 14:57:12.764  INFO 5141 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 14:57:14.209  INFO 5141 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.782 seconds (JVM running for 7.755)
+2021-10-12 14:57:50.156  INFO 5150 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5150 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 14:57:50.157 DEBUG 5150 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 14:57:50.159  INFO 5150 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 14:57:51.781  INFO 5150 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.979 seconds (JVM running for 8.081)
+2021-10-12 15:14:39.125  INFO 5366 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5366 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:14:39.127 DEBUG 5366 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:14:39.129  INFO 5366 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:14:40.703  INFO 5366 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.914 seconds (JVM running for 7.909)
+2021-10-12 15:14:40.769  WARN 5366 --- [Test worker] o.s.test.context.TestContextManager      : Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48a12036] for test method [void com.bridgelabz.employeepayrollapp.controller.EmpPayrollControllerTest.givenReqCallToGetAllData_ShouldReturnListOfAllEmpPayrollData() throws java.lang.Exception] and test instance [com.bridgelabz.employeepayrollapp.controller.EmpPayrollControllerTest@7e94e331]
+
+org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at com.bridgelabz.employeepayrollapp.controller.EmpPayrollControllerTest.givenReqCallToGetAllData_ShouldReturnListOfAllEmpPayrollData(EmpPayrollControllerTest.java:48)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:83) ~[spring-boot-test-2.5.5.jar:2.5.5]
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70) ~[spring-boot-test-2.5.5.jar:2.5.5]
+	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64) ~[spring-boot-test-2.5.5.jar:2.5.5]
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:445) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$11(TestMethodTestDescriptor.java:253) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$12(TestMethodTestDescriptor.java:269) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:269) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:268) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:252) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108) ~[na:na]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[na:na]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[na:na]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[na:na]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[na:na]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96) ~[na:na]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36) ~[na:na]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[na:na]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33) ~[na:na]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94) ~[na:na]
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100) ~[na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60) ~[na:na]
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133) ~[na:na]
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71) ~[na:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
+
+2021-10-12 15:18:55.689  INFO 5408 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5408 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:18:55.690 DEBUG 5408 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:18:55.692  INFO 5408 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:18:57.214  INFO 5408 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.861 seconds (JVM running for 7.9)
+2021-10-12 15:21:37.650  INFO 5426 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5426 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:21:37.651 DEBUG 5426 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:21:37.654  INFO 5426 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:21:39.155  INFO 5426 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.836 seconds (JVM running for 7.822)
+2021-10-12 15:22:04.208  INFO 5434 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5434 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:22:04.210 DEBUG 5434 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:22:04.212  INFO 5434 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:22:05.803  INFO 5434 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.946 seconds (JVM running for 8.067)
+2021-10-12 15:22:46.179  INFO 5438 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5438 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:22:46.181 DEBUG 5438 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:22:46.183  INFO 5438 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:22:47.941  INFO 5438 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 7.137 seconds (JVM running for 8.268)
+2021-10-12 15:24:09.256  INFO 5449 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5449 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:24:09.258 DEBUG 5449 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:24:09.260  INFO 5449 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:24:10.806  INFO 5449 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.894 seconds (JVM running for 7.911)
+2021-10-12 15:32:10.296  INFO 5484 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Starting EmpPayrollControllerTest using Java 16.0.1 on Amits-MacBook-Pro.local with PID 5484 (started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 15:32:10.298 DEBUG 5484 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 15:32:10.299  INFO 5484 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : No active profile set, falling back to default profiles: default
+2021-10-12 15:32:11.722  INFO 5484 --- [Test worker] c.b.e.c.EmpPayrollControllerTest         : Started EmpPayrollControllerTest in 6.739 seconds (JVM running for 7.664)
+2021-10-12 20:47:00.680  INFO 7872 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7872 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 20:47:00.682 DEBUG 7872 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 20:47:00.682  INFO 7872 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 20:47:02.239  WARN 7872 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 20:47:02.652  WARN 7872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 20:47:02.947  INFO 7872 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.561 seconds (JVM running for 8.13)
+2021-10-12 20:47:02.949  INFO 7872 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 20:54:30.084  INFO 7932 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7932 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 20:54:30.086 DEBUG 7932 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 20:54:30.087  INFO 7932 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 20:54:31.544  WARN 7932 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 20:54:31.912  WARN 7932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 20:54:32.193  INFO 7932 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.393 seconds (JVM running for 7.965)
+2021-10-12 20:54:32.195  INFO 7932 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:02:17.613  INFO 7965 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7965 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:02:17.615 DEBUG 7965 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:02:17.615  INFO 7965 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:02:19.048  WARN 7965 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:02:19.395  WARN 7965 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:02:19.692  INFO 7965 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.364 seconds (JVM running for 7.862)
+2021-10-12 21:02:19.695  INFO 7965 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:08:21.382  WARN 7965 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "12 dec 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 dec 2019' could not be parsed at index 3; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "12 dec 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 dec 2019' could not be parsed at index 3
+ at [Source: (PushbackInputStream); line: 2, column: 19] (through reference chain: com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto["startDate"])]
+2021-10-12 21:08:56.795  WARN 7965 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "12 DEC 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 DEC 2019' could not be parsed at index 3; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "12 DEC 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 DEC 2019' could not be parsed at index 3
+ at [Source: (PushbackInputStream); line: 2, column: 19] (through reference chain: com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto["startDate"])]
+2021-10-12 21:10:00.566  INFO 7999 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 7999 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:10:00.568 DEBUG 7999 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:10:00.569  INFO 7999 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:10:02.058  WARN 7999 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:10:02.431  WARN 7999 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:10:02.730  INFO 7999 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.491 seconds (JVM running for 8.16)
+2021-10-12 21:10:02.732  INFO 7999 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:10:36.777  WARN 7999 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "12 DEC 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 DEC 2019' could not be parsed at index 3; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "12 DEC 2019": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '12 DEC 2019' could not be parsed at index 3
+ at [Source: (PushbackInputStream); line: 2, column: 19] (through reference chain: com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto["startDate"])]
+2021-10-12 21:13:44.906  INFO 8026 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8026 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:13:44.909 DEBUG 8026 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:13:44.909  INFO 8026 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:13:46.624  WARN 8026 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:13:47.012  WARN 8026 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:13:47.313  INFO 8026 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.728 seconds (JVM running for 8.291)
+2021-10-12 21:13:47.315  INFO 8026 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:15:05.256  INFO 8050 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8050 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:15:05.258 DEBUG 8050 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:15:05.258  INFO 8050 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:15:06.646  WARN 8050 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:15:07.027  WARN 8050 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:15:07.322  INFO 8050 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.363 seconds (JVM running for 7.866)
+2021-10-12 21:15:07.324  INFO 8050 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:15:36.822  WARN 8050 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Invalid numeric value: Leading zeroes not allowed; nested exception is com.fasterxml.jackson.core.JsonParseException: Invalid numeric value: Leading zeroes not allowed
+ at [Source: (PushbackInputStream); line: 3, column: 17]]
+2021-10-12 21:18:02.452  INFO 8065 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8065 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:18:02.454 DEBUG 8065 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:18:02.454  INFO 8065 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:18:03.925  WARN 8065 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:18:04.290  WARN 8065 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:18:04.584  INFO 8065 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.415 seconds (JVM running for 7.926)
+2021-10-12 21:18:04.586  INFO 8065 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:19:14.833  INFO 8078 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8078 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:19:14.835 DEBUG 8078 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:19:14.836  INFO 8078 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:19:16.193  WARN 8078 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:19:16.537  WARN 8078 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:19:16.822  INFO 8078 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.271 seconds (JVM running for 7.717)
+2021-10-12 21:19:16.824  INFO 8078 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:19:33.987 ERROR 8078 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.lang.Integer'. Check configuration for 'salary'] with root cause
+
+javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.lang.Integer'. Check configuration for 'salary'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:54) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:65) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:895) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:245) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:139) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-10-12 21:20:48.856  INFO 8092 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8092 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:20:48.858 DEBUG 8092 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:20:48.858  INFO 8092 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:20:50.239  WARN 8092 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:20:50.576  WARN 8092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:20:50.846  INFO 8092 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.27 seconds (JVM running for 7.771)
+2021-10-12 21:20:50.848  INFO 8092 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 21:33:18.558  INFO 8333 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8333 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 21:33:18.560 DEBUG 8333 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 21:33:18.560  INFO 8333 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 21:33:19.946  WARN 8333 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 21:33:20.311  WARN 8333 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 21:33:20.586  INFO 8333 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.307 seconds (JVM running for 7.872)
+2021-10-12 21:33:20.588  INFO 8333 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 22:44:09.525  INFO 8754 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8754 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 22:44:09.527 DEBUG 8754 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 22:44:09.527  INFO 8754 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 22:44:11.019  WARN 8754 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 22:44:11.408  WARN 8754 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 22:44:11.709  INFO 8754 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.48 seconds (JVM running for 7.939)
+2021-10-12 22:44:11.711  INFO 8754 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 22:51:19.070  INFO 8788 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8788 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 22:51:19.072 DEBUG 8788 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 22:51:19.073  INFO 8788 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 22:51:20.443  WARN 8788 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 22:51:20.806  WARN 8788 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 22:51:21.087  INFO 8788 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.292 seconds (JVM running for 7.784)
+2021-10-12 22:51:21.089  INFO 8788 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 22:57:19.766  INFO 8818 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8818 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 22:57:19.768 DEBUG 8818 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 22:57:19.768  INFO 8818 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 22:57:21.273  WARN 8818 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 22:57:21.732  WARN 8818 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 22:57:22.029  INFO 8818 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.593 seconds (JVM running for 8.265)
+2021-10-12 22:57:22.032  INFO 8818 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 23:00:09.130  INFO 8854 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8854 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 23:00:09.132 DEBUG 8854 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 23:00:09.132  INFO 8854 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 23:00:10.522  WARN 8854 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 23:00:10.880  WARN 8854 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 23:00:11.183  INFO 8854 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.343 seconds (JVM running for 7.921)
+2021-10-12 23:00:11.185  INFO 8854 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 23:01:48.810  INFO 8981 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8981 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 23:01:48.812 DEBUG 8981 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 23:01:48.812  INFO 8981 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 23:01:50.229  WARN 8981 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 23:01:50.605  WARN 8981 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 23:01:50.884  INFO 8981 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.356 seconds (JVM running for 7.868)
+2021-10-12 23:01:50.886  INFO 8981 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 23:01:54.931  WARN 8981 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('HR')
+ at [Source: (PushbackInputStream); line: 4, column: 21] (through reference chain: com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto["departments"])]
+2021-10-12 23:02:34.538  INFO 8988 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 8988 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 23:02:34.540 DEBUG 8988 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 23:02:34.540  INFO 8988 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 23:02:35.801  WARN 8988 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 23:02:36.087  WARN 8988 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 23:02:36.324  INFO 8988 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.065 seconds (JVM running for 7.568)
+2021-10-12 23:02:36.327  INFO 8988 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started
+2021-10-12 23:04:34.468  INFO 9004 --- [main] c.b.e.EmpPayrollAppApplication           : Starting EmpPayrollAppApplication using Java 16.0.1 on Amits-MacBook-Pro.local with PID 9004 (/Users/amitnimbekar/IdeaProjects/Emp-Payroll-App/build/classes/java/main started by amitnimbekar in /Users/amitnimbekar/IdeaProjects/Emp-Payroll-App)
+2021-10-12 23:04:34.470 DEBUG 9004 --- [main] c.b.e.EmpPayrollAppApplication           : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-12 23:04:34.471  INFO 9004 --- [main] c.b.e.EmpPayrollAppApplication           : No active profile set, falling back to default profiles: default
+2021-10-12 23:04:35.839  WARN 9004 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-12 23:04:36.156  WARN 9004 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 23:04:36.423  INFO 9004 --- [main] c.b.e.EmpPayrollAppApplication           : Started EmpPayrollAppApplication in 2.247 seconds (JVM running for 7.819)
+2021-10-12 23:04:36.425  INFO 9004 --- [main] c.b.e.EmpPayrollAppApplication           : Employee Payroll App Started

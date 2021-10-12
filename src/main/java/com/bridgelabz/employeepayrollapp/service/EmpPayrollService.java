@@ -3,6 +3,8 @@ package com.bridgelabz.employeepayrollapp.service;
 import com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto;
 import com.bridgelabz.employeepayrollapp.exceptions.EmpPayrollException;
 import com.bridgelabz.employeepayrollapp.model.EmpPayrollData;
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -20,6 +22,8 @@ import java.util.List;
 public class EmpPayrollService {
 
     List<EmpPayrollData> empDataList = new ArrayList<>();
+    @Autowired
+    private ModelMapper modelMapper;
 
     /**
      * Function to get the list of all employee stored in DB
@@ -51,7 +55,8 @@ public class EmpPayrollService {
      * @return employee payroll data created by this layer
      */
     public EmpPayrollData addEmpPayrollData(EmpPayrollDto empPayrollDto) {
-        EmpPayrollData empData = new EmpPayrollData(1, empPayrollDto);
+        EmpPayrollData empData = new EmpPayrollData();
+        modelMapper.map(empPayrollDto, empData);
         empDataList.add(empData);
         return empData;
     }

@@ -2,6 +2,10 @@ package com.bridgelabz.employeepayrollapp.model;
 
 import com.bridgelabz.employeepayrollapp.dto.EmpPayrollDto;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+import java.util.List;
 
 /**
  * Create and maintains employee payroll data in object.
@@ -11,15 +15,15 @@ import lombok.Data;
  * @since 10/10/2021
  */
 @Data
+@NoArgsConstructor
 public class EmpPayrollData {
 
     private int empId;
     private String name;
+    private String gender;
+    private List<String> departments;
+    private LocalDate startDate;
     private int salary;
-
-    public EmpPayrollData(int empId, EmpPayrollDto empPayrollDTO) {
-        this.empId = empId;
-        this.name = empPayrollDTO.getName();
-        this.salary = empPayrollDTO.getSalary();
-    }
+    private String profilePic;
+    private String note;
 }
